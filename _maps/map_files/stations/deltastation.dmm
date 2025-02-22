@@ -75477,6 +75477,9 @@
 /obj/structure/table/wood,
 /obj/machinery/light,
 /obj/machinery/keycard_auth,
+/obj/item/stamp/hos{
+	pixel_y = 10
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -90823,8 +90826,12 @@
 /area/station/hallway/primary/central/west)
 "wSB" = (
 /obj/structure/table/wood,
-/obj/item/reagent_containers/drinks/mug/hos,
-/obj/item/megaphone,
+/obj/item/reagent_containers/drinks/mug/hos{
+	pixel_y = -5
+	},
+/obj/item/megaphone{
+	pixel_y = 13
+	},
 /turf/simulated/floor/carpet/red,
 /area/station/command/office/hos)
 "wSK" = (
